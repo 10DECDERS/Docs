@@ -23,7 +23,7 @@
 **Step - 1**.  Login to **https://manage.auth0.com**
 
 
- **Step - 2**.  Navigate to **Dashboard > SSO Integrations and click + Create New SSO Integration **
+ **Step - 2**.  Navigate to **Dashboard > SSO Integrations and click + Create New SSO Integration**
 
 ------------
 
@@ -45,7 +45,7 @@
 ![](https://raw.githubusercontent.com/10DECDERS/Docs/master/SSOIntegration/3.jpeg)
 
 
-**Step - 6**. Once created in the instruction page make sure to keep note of **SAML 2.0 HTTP Endpoint **
+**Step - 6**. Once created in the instruction page make sure to keep note of **SAML 2.0 HTTP Endpoint**
 
 **Step - 7**.  Also the **Public Certificate** in the same page
 
@@ -185,7 +185,7 @@ function login(email, password, callback) {
 
 
 
-**Step - 33**. Once the configuration is saved, we can open our team url or share to others to login with our application like **https://alien.slack.com **
+**Step - 33**. Once the configuration is saved, we can open our team url or share to others to login with our application like **https://alien.slack.com**
 - The end users will see a page like below when they put the url on browser 
 
 
