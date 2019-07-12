@@ -1,6 +1,6 @@
 ## Getting Started
 
-#### _ SSO Integration for centralized Application using Auth0 as a Provider _
+#### *SSO Integration for centralized Application using Auth0 as a Provider*
 
 
 
