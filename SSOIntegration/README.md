@@ -32,13 +32,13 @@
 ![](https://raw.githubusercontent.com/10DECDERS/Docs/master/SSOIntegration/1.jpeg)
 
 
- **Step - 3**. Select the **Slack**option
+ **Step - 3**. Select the **Slack** option
 
 
 ![](https://raw.githubusercontent.com/10DECDERS/Docs/master/SSOIntegration/2.jpeg)
 
 
-**Step - 4**.  Set the name for your SSO Integration Basically the **team**name.
+**Step - 4**.  Set the name for your SSO Integration Basically the **team** name.
 
 **Step - 5**. Click Create
 
@@ -47,7 +47,7 @@
 
 **Step - 6**. Once created in the instruction page make sure to keep note of **SAML 2.0 HTTP Endpoint **
 
-**Step - 7**.  Also the **Public Certificate**in the same page
+**Step - 7**.  Also the **Public Certificate** in the same page
 
 
 ![](https://raw.githubusercontent.com/10DECDERS/Docs/master/SSOIntegration/4.jpeg)
@@ -61,7 +61,7 @@
 
 **Step - 11**.  Optional : We can configure our own database in the Connections tab in dashboard.
 
-**Step - 12**.  Go to **Dashboard - > Universal Login**.
+**Step - 12**.  Go to **Dashboard - > Universal Login** .
 
 **Step - 13**.  Customize the login page as needed based on our company requirements
 
@@ -73,7 +73,7 @@
 ![](https://raw.githubusercontent.com/10DECDERS/Docs/master/SSOIntegration/6.jpeg)
 
 
-**Step - 15**.  Go to Dashboard once done, and click on **Connections → Database**to configure custom database if needed
+**Step - 15**.  Go to Dashboard once done, and click on **Connections → Database** to configure custom database if needed
 
 
 ![](https://raw.githubusercontent.com/10DECDERS/Docs/master/SSOIntegration/7.jpeg)
@@ -136,7 +136,7 @@ function login(email, password, callback) {
 
 
 
-**Step - 18**. Once everything is done, in **auth0**side, now lets move to Slack and finish the configuration wire up 
+**Step - 18**. Once everything is done, in **auth0** side, now lets move to Slack and finish the configuration wire up 
 
 
 **Step - 19**. Login to your team workspace in slack 
@@ -152,7 +152,7 @@ function login(email, password, callback) {
 
 
 
-**Step - 22**.  Click the **Authentication**tab.
+**Step - 22**.  Click the **Authentication** tab.
 **Step - 23**.  Click Configure next to **SAML authentication**.
 
 
@@ -172,12 +172,12 @@ function login(email, password, callback) {
 
 
 
-**Step - 27**. Enter your **IDP Entity ID**next to Identity Provider Issuer. 
-**Step - 28**. Copy the entire **x.509 Certificate**from your identity provider and paste it into the Public Certificate field.
+**Step - 27**. Enter your **IDP Entity ID** next to Identity Provider Issuer. 
+**Step - 28**. Copy the entire **x.509 Certificate** from your identity provider and paste it into the Public Certificate field.
 **Step - 29**. Click Expand next to **Advanced Options**. Choose how the SAML response from your IDP is signed. If you need an end-to-end encryption key, check the box next to Sign AuthnRequest to show the certificate.
-**Step - 30**. Under Settings, decide if members can edit their profile information (like their email or display name) after **SSO**is enabled. You can also choose whether SSO is required, partially required or optional.*
+**Step - 30**. Under Settings, decide if members can edit their profile information (like their email or display name) after **SSO** is enabled. You can also choose whether SSO is required, partially required or optional.*
 **Step - 31**. Under Customize, enter a **Sign In Button Label.**
-**Step - 32**. Select **Save**Configuration to finish.
+**Step - 32**. Select **Save** Configuration to finish.
 
 
 ![](https://raw.githubusercontent.com/10DECDERS/Docs/master/SSOIntegration/13.jpeg)
