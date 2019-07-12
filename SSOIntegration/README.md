@@ -153,6 +153,7 @@ function login(email, password, callback) {
 
 
 **Step - 22**.  Click the **Authentication** tab.
+
 **Step - 23**.  Click Configure next to **SAML authentication**.
 
 
@@ -162,6 +163,7 @@ function login(email, password, callback) {
 
  
 **Step - 24**.  In the top right, toggle Test mode on.
+
 **Step - 25**.  Next to SAML SSO URL, enter your **SAML 2.0 Endpoint URL(HTTP)**.
 
 **Step - 26**. Which we got from auth0 earlier, those three htp endpoint,**idp and public certificate**
@@ -173,10 +175,15 @@ function login(email, password, callback) {
 
 
 **Step - 27**. Enter your **IDP Entity ID** next to Identity Provider Issuer. 
+
 **Step - 28**. Copy the entire **x.509 Certificate** from your identity provider and paste it into the Public Certificate field.
+
 **Step - 29**. Click Expand next to **Advanced Options**. Choose how the SAML response from your IDP is signed. If you need an end-to-end encryption key, check the box next to Sign AuthnRequest to show the certificate.
+
 **Step - 30**. Under Settings, decide if members can edit their profile information (like their email or display name) after **SSO** is enabled. You can also choose whether SSO is required, partially required or optional.*
+
 **Step - 31**. Under Customize, enter a **Sign In Button Label.**
+
 **Step - 32**. Select **Save** Configuration to finish.
 
 
